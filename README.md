@@ -1,6 +1,7 @@
 # pour-over
 A guide for making a great cup of coffee - 2wk Product Sprint #1
 ---
+
 Pour over directions for a great cup of coffee
 
 They were created through my own experimentation based on the guides published by Blue Bottle and Serious Eats.

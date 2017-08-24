@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+
+  <title>Great Pour Over Coffee</title>
+  
+  <link rel="apple-touch-icon" href="app_icon.png">
+  <link rel="apple-touch-startup-image" href="app_loader.png">
+
+  <meta name="apple-mobile-web-app-title" content="Coffee">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui"/>
+  
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+  <meta property="og:title" content="Try it for yourself!">
+  <meta property="og:description" content="Easy step-by-step guide with timers built in for convenience">
+  <meta property="og:image" content="https://s3.amazonaws.com/rvondohlen-cdn/coffee_codepen/app_link-share.png">
+  <meta property="og:url" content="https://s3.amazonaws.com/rvondohlen-cdn/coffee_codepen/index.html">
+
+  <meta name="twitter:title" content="Try it for yourself!">
+  <meta name="twitter:description" content="Easy step-by-step guide with timers built in for convenience">
+  <meta name="twitter:image" content="https://s3.amazonaws.com/rvondohlen-cdn/coffee_codepen/app_link-share.png">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+  <link rel='stylesheet prefetch' href='https://fonts.googleapis.com/css?family=Six+Caps'>
+  <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+  <div class="content">
+  <div class="intro fade-in">
+    <h1>How to make great pour over coffee</h1>
+  </div>
+  <ul class="steps">
+    <li id="gather" class="step active fade-in">
+      <h2><span class="black">Gather Items</span></h2>
+      <div class="directions">
+        <p>To make 1 cup of coffee you'll need:</p>
+        <ul>
+          <li><span class="directions-list-item">Water</span> - approximately 2 cups or 500 grams</li>
+          <li><span class="directions-list-item">Kettle with Thermometer</span> - for heating the water</li>
+          <li><span class="directions-list-item">Kitchen Scale</span> - for measuring beans and water</li>
+          <li><span class="directions-list-item">Coffee Beans</span> - 3 tbsp. or 22-30 grams, whole beans</li>
+          <li><span class="directions-list-item">Pour-over Funnel</span> - I use a Hario V60</li>
+          <li><span class="directions-list-item">Paper Filter</span> -  I use matching Hario V60 02 Cone Filters</li>
+          <li><span class="directions-list-item">Grinder</span> - I use a Bodum Electric Blade</li>
+          <li><span class="directions-list-item">Empty Vessel</span> - a container large enough for your coffee</li>
+        </ul>
+      </div>
+    </li>
+    <li id="boil" class="step fade-in">
+      <h2><span class="black">Boil Water</span></h2>
+      <div class="directions">
+        <p>First, set the kettle, filled with about 2 cups of water, to boil over medium-high heat.</p>
+      </div>
+    </li>
+    <li id="grind" class="step fade-in">
+      <h2><span class="black">Grind Coffee</span></h2>
+      <div class="directions">
+        <p>Measure 22-30 grams of beans and grind into fine, sand-like granules.</p>
+      </div>
+    </li>
+    <li id="wet" class="step fade-in">
+      <h2><span class="black">Wet Filter</span></h2>
+      <div class="directions">
+        <p>When the water's temperature reaches 205&deg;, place a new filter in the funnel and pour just enough hot water over to dampen it completely. This removes any unwanted papery tastes that may come from a dry filter.</p>
+        <p>Pour out the water.</p>
+      </div>
+    </li>
+    <li id="add" class="step fade-in">
+      <h2><span class="black">Add Grounds</span></h2>
+      <div class="directions">
+        <p>Add grounds to wet filter. Tap to level and add the funnel to the empty cup.</p>
+        <p>Place on the scale and tare.</p>
+      </div>
+    </li>
+    <li id="bloom" class="step fade-in">
+      <h2><span class="black">Bloom Pour</span></h2>
+      <div class="directions">
+        <p>Pouring in a circular motion from the outside edge, moving in, add 60 grams of water over 15 seconds.</p>
+        <p>Wait 30 seconds for funnel to drain.</p>
+        <h3 id="countdown1">0:45 <span>Start</span></h3>
+      </div>
+    </li>
+    <li id="second" class="step fade-in">
+      <h2><span class="black">Second Pour</span></h2>
+      <div class="directions">
+        <p>From the center out and back again, pour 90 grams of water over 20 seconds.</p>
+        <p>Wait 25 seconds.</p>
+        <h3 id="countdown2">0:45 <span>Start</span></h3>
+        <p>I consider my grind perfect if the water just reaches the top of the grounds as this timer expires.</p>
+      </div>
+    </li>
+    <li id="third" class="step fade-in">
+      <h2><span class="black">Third Pour</span></h2>
+      <div class="directions">
+        <p>Repeating the same motion, pour 100 grams of water over 20 seconds.</p>
+        <h3 id="countdown3">0:20 <span>Start</span></h3>
+        <p>Wait until the water reaches the top of the grounds.</p>
+      </div>
+    </li>
+    <li id="fourth" class="step fade-in">
+      <h2><span class="black">Fourth Pour</span></h2>
+      <div class="directions">
+        <p>Pour a second 100 grams of water over 20 seconds.</p>
+        <h3 id="countdown4">0:20 <span>Start</span></h3>
+        <p>Wait until all of the fresh coffee drains, serve and enjoy.</p>
+      </div>
+    </li>
+    <li id="enjoy" class="step">
+      <h2>☕</h2>
+      <div class="directions">
+        <h3 id="quote"></h3>
+        <p id="quote-attr"></p>
+        <hr> 
+        <p>These pour over directions were created through my own experimentation based on the guides published by <a href="https://bluebottlecoffee.com/preparation-guides/pour-over">Blue Bottle</a> and <a href="http://www.seriouseats.com/2014/06/make-better-pourover-coffee-how-pourover-works-temperature-timing.html">Serious Eats</a>. I don't claim to be an expert but this method does make a darn good cup. Try it for yourself!</p>   
+        <hr>   
+        <p>This page was made by <a href="https://rvondohlen.github.io">Ryan von Dohlen</a></p>
+      </div>
+    </li>
+  </ul>
+</div>
+
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/velocity/1.5.0/velocity.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/velocity/0.7.0/velocity.ui.min.js"></script>
+
+  <script src="js/index.js"></script>
+
+</body>
+</html>

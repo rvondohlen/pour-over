@@ -1,0 +1,188 @@
+body {
+  background-color: #4A90E2;
+  padding-top: 20px;
+}
+
+h1,
+h2,
+h3{
+  font-family: 'Six Caps', sans-serif;
+  text-transform: uppercase;
+  font-weight: normal;
+  font-size: 70px;
+  letter-spacing: -0.025em;
+  line-height: 72px;
+  margin: 0;
+  color: #fff;
+}
+
+h2, 
+h3 {
+  font-size: 118px;
+  line-height: 120px;
+}
+
+h3 {
+  color: #4A90E2;
+  letter-spacing: 0em;
+  -webkit-transition: color .5s;
+  -moz-transition: color .5s;
+  -o-transition: color .5s;
+  -ms-transition: color .5s;
+  transition: color .5s;
+}
+
+h3 span {
+  color: #dedede;
+  letter-spacing: -0.025em;
+}
+
+span.black {  
+  color: #363636;
+}
+
+a {
+  color: #4A90E2;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+hr {
+  opacity: 0.25;
+}
+
+input {
+  border: 1px solid #dedede;
+}
+ 
+.fade-in {
+  opacity: 0;
+}
+
+.content {
+  width: 95%;
+  max-width: 450px;
+  margin: 0 auto;
+
+  opacity: 1;
+}
+
+.content.visible {
+  opacity: 1;
+}
+
+.intro {
+  margin: 25px 10px 25px 20px;
+}
+
+.intro h1 {
+  width:247px;
+}
+
+li.step {
+  padding: 5px 20px;
+  
+  -webkit-transition: all 0.25s ease-in-out;
+  -moz-transition: all 0.25s ease-in-out;
+  -o-transition: all 0.25s ease-in-out;
+  -ms-transition: all 0.25s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+.step,
+.step li,
+.step p {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  color: #363636;
+}
+
+.step ul li {
+  margin-top: 5px;
+  list-style-position: inside;
+  text-indent: -9px;
+  padding-left: 8px;
+}
+
+.step ul li:before {
+  content: "·";
+  margin-right: 6px; 
+}
+
+li.step p h3 {
+  color: #4A90E2;
+}
+
+li.active {
+  background-color: #fff;
+  -webkit-box-shadow: 0px 5px 19px 0px rgba(0,0,0,0.24);
+  -moz-box-shadow: 0px 5px 19px 0px rgba(0,0,0,0.24);
+  box-shadow: 0px 5px 19px 0px rgba(0,0,0,0.24);
+
+  border-radius: 5px;
+  padding: 20px 20px;
+
+}
+
+li.done h2 {
+  text-decoration: line-through;
+}
+
+span.done {
+  text-decoration: line-through;
+}
+
+
+.directions p:not(:first-child) {
+    margin-top: 10px;
+}
+
+li.step .directions {
+  display: none;
+  margin: 10px 0 5px 0;
+}
+li.active .directions {
+  display: block;
+}
+
+
+li.step .directions h3 {
+  margin-top: 10px;
+  margin-bottom: -5px;
+}
+
+.directions {
+  margin-left: 2px;
+}
+
+.directions ul {
+  margin-left: 1px;
+}
+
+.directions-list-item {
+  font-weight: 700;
+}
+
+#enjoy {
+  margin: 25px 0;
+}
+
+#enjoy .directions {
+  color: #4A90E2;
+}
+
+#enjoy h2 {
+  font-size: 70px;
+  line-height: 72px;
+}
+
+#quote {
+  font-size: 70px;
+  line-height: 72px;
+  text-indent: -15px;
+}

@@ -111,7 +111,7 @@ $("#countdown4 span").one('click', function(){
 });
 
 //$.getJSON("https://s3.amazonaws.com/rvondohlen-cdn/coffee_codepen/js/quotes.json", function (data) {
-$.getJSON("/js/quotes.json", function (data) {
+$.getJSON("/pour-over/js/quotes.json", function (data) {
     var randomQuote = data[Math.floor(Math.random() * data.length)];
     document.getElementById('quote').innerHTML = '"'+ randomQuote.quoteText +'"';
     document.getElementById('quote-attr').innerHTML = '— '+ randomQuote.quoteAuthor;

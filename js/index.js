@@ -22,9 +22,8 @@ $(function(){
 
 $(".step").click(function(){
 
-  var hrefHash = "";
-  var oldActiveHeight = $(".step.active").height();
-  console.log("Old active Height : "+ oldActiveHeight);
+  //var hrefHash = "";
+  //var oldActiveHeight = $(".step.active").height();
   var titleHeight = 100;
 
   // HIDE OLD ACTIVE
